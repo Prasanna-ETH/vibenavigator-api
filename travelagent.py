@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 import json
 from datetime import datetime
@@ -18,6 +19,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 # ⚙️ Flask App Init
 # =============================
 app = Flask(__name__)
+CORS(app, origins=["https://vibe-voyager-explore.vercel.app"]) 
 
 # =============================
 # 🧠 Agents Setup
