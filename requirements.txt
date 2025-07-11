@@ -3,3 +3,4 @@ serpapi
 agno
 google-search-results
 google-genai
+flask
