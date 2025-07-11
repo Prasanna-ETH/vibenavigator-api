@@ -46,7 +46,7 @@ hotel_restaurant_finder = Agent(
         "Prioritize results based on user preferences, ratings, and availability.",
         "Provide direct booking links or reservation options where possible."
     ],
-    model=Gemini(id="gemini-2.0-flash-exp"),
+    model=Gemini(id="gemini-pro"),
     tools=[SerpApiTools(api_key=SERPAPI_KEY)],
     add_datetime_to_instructions=True,
 )
