@@ -19,7 +19,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 # ⚙️ Flask App Init
 # =============================
 app = Flask(__name__)
-CORS(app, origins=["https://vibenavigator247.vercel.app/"]) 
+CORS(app, origins=["https://vibenavigator247.vercel.app"]) 
 
 # =============================
 # 🧠 Agents Setup
